@@ -35,6 +35,8 @@ crd_globs="\
     operator/v1/zz_generated.crd-manifests/0000_30_cluster-api_01_clusterapis*.crd.yaml
     operator/v1/zz_generated.crd-manifests/0000_50_ingress_02_ingresses*.crd.yaml
     config/v1alpha1/zz_generated.crd-manifests/0000_10_config-operator_01_controllermanagers*.crd.yaml
+    operator/v1/zz_generated.crd-manifests/0000_70_dns_00_dnses*.crd.yaml
+    network/v1alpha1/zz_generated.crd-manifests/0000_70_dns_00_dnsnameresolvers*.crd.yaml
     "
 
 # To allow the crd_globs to be sourced in the verify script,
